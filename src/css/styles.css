@@ -1,6 +1,13 @@
 /* Conservez ces lignes de css */
+:root {
+  --bg-danger: rgb(255, 0, 0);
+}
 
 @import url("https://web3.tim-momo.com/carre/styles.css");
+
+.flip {
+  transform: rotate(180deg);
+}
 
 .back {
   aspect-ratio: 5 / 7;
@@ -8,4 +15,6 @@
 
 .carte {
   aspect-ratio: 5 / 7;
+  display: grid;
+  grid-template-columns: 50px auto 50px;
 }
